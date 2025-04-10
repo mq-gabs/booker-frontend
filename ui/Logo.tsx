@@ -3,6 +3,6 @@ import logoSvg from "../public/logo.svg"
 
 export default function Logo() {
   return (
-    <Image src={logoSvg} />
+    <Image src={logoSvg} alt="Booker Logo" />
   )
 }
